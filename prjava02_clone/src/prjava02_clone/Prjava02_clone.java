@@ -24,6 +24,7 @@ public class Prjava02_clone {
 public static void main(String[] args) { try {
 
 InetAddress addr = InetAddress.getLocalHost(); byte[] ipAddr = addr.getAddress();
+System.out.println("Creació d'una branca del projecte prjava02");
 System.out.println("Arquitecura OS: " + System.getProperty("os.arch"));
 String hostname = addr.getHostName(); System.out.println("hostname="+hostname);
 
